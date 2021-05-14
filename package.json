@@ -1,0 +1,22 @@
+{
+  "name": "kowalski",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/kowalski.js",
+  "bin": {
+    "k": "./bin/cli.js"
+  },
+  "scripts": {
+    "test": "jest --watchAll"
+  },
+  "keywords": [],
+  "author": "John Lynn <john@otter.tech>",
+  "license": "MIT",
+  "dependencies": {
+    "@types/jest": "^26.0.23",
+    "chalk": "^4.1.1",
+    "jest": "^26.6.3",
+    "moment": "^2.29.1",
+    "vorpal": "^1.12.0"
+  }
+}
